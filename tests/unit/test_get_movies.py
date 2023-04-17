@@ -1,4 +1,4 @@
-from flaskr.db import get_movies
+from movieswebsite.db import get_movies
 
 def test_get_movies(app):
     results = []

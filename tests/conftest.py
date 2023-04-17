@@ -1,8 +1,8 @@
 import tempfile
 import os
 import pytest
-from flaskr import create_app
-from flaskr.db import init_db
+from movieswebsite import create_app
+from movieswebsite.db import init_db
 
 @pytest.fixture
 def app():

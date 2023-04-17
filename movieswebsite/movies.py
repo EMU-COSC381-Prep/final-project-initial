@@ -1,5 +1,5 @@
 from flask import Blueprint, request, render_template
-from flaskr.db import get_movies
+from movieswebsite.db import get_movies
 
 bp = Blueprint('movies', __name__, url_prefix='/movies')
 
